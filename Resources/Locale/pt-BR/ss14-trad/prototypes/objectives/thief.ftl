@@ -1,2 +1,2 @@
-ent-EscapeThiefShuttleObjective = Escape to centcom alive and unrestrained.
-    .desc = You don't want your illegal activities to be discovered by anyone, do you?
+ent-EscapeThiefShuttleObjective = Escape para Centcomm vivo e sem algemas.
+    .desc = Você não quer que ninguém dedscubra o que você fez, não?

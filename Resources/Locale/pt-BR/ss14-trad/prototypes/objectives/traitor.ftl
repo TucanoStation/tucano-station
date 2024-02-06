@@ -1,5 +1,5 @@
 ent-EscapeShuttleObjective = Escape para a centcom vivo e sem algemas.
-    .desc = Um dos nossos agentes infiltrados ira lhe dar sua nova missão, não apareca algemado.
+    .desc = Um dos nossos agentes infiltrados irá lhe dar sua nova missão, não apareca algemado.
 ent-DieObjective = Morra de forma gloriosa.
     .desc = Morra.
 ent-KillRandomPersonObjective = { ent-BaseTraitorObjective }

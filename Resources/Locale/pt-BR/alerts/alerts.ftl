@@ -43,11 +43,11 @@ alerts-hunger-desc = Uma refeição caíria bem agora.
 alerts-stamina-name = Estamina
 alerts-stamina-desc = Se estiver muito baixa, você ficará atordoado.
 alerts-starving-name = [color=red]Morrendo de fome[/color]
-alerts-starving-desc = Você está com desnutrição severa e fraqueza.
+alerts-starving-desc = Você está com desnutrição severa. A fome faz com que movimentar-se seja tárefa árdua.
 alerts-thirsty-name = [color=yellow]Sede[/color]
 alerts-thirsty-desc = Something to drink would be good right about now.
 alerts-parched-name = [color=red]Desidatração severa[/color]
-alerts-parched-desc = Você está extremamente desidratado e com fraqueza.
+alerts-parched-desc = Você está extremamente desidratado. A sede faz com que movimentar-se seja tárefa árdua.
 alerts-muted-name = Mudo
 alerts-muted-desc = Você não consegue mais falar.
 alerts-vow-silence-name = Voto de Silêncio

@@ -1,2 +1,2 @@
-ent-DragonSurviveObjective = Survive
-    .desc = You have to stay alive to maintain control.
+ent-DragonSurviveObjective = Sobreviva
+    .desc = Você tem que ficar vivo para manter o controle.

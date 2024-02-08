@@ -1,4 +1,4 @@
 ent-TerminateObjective = { ent-BaseTerminatorObjective }
-    .desc = Follow your programming and terminate the target.
-ent-ShutDownObjective = Shut down
-    .desc = Once the mission is complete die to prevent our technology from being stolen.
+    .desc = Siga sua programação e elimine seu alvo.
+ent-ShutDownObjective = Desligar
+    .desc = Assim que finalizar sua missão, morra e previna que nossa tecnologia seja roubada.

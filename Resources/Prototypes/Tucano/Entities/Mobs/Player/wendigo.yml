@@ -22,11 +22,13 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/Xeno/wendigo-attack.ogg
+    angle: 0
+    animation: WeaponArcClaw
     damage:
-     groups:
-       Brute: 25
-       Slash: 25
-       Structural: 70
+      types:
+        Slash: 30
+        Structural: 50
+        Piercing: 20
   - type: Fixtures
     fixtures:
       fix1:

@@ -10,7 +10,7 @@
   - type: BallisticAmmoProvider
     mayTransfer: true
     proto: BaseEnergyShell
-    capacity: 16
+    capacity: 14
     whitelist:
       tags:
         - BaseEnergyShell

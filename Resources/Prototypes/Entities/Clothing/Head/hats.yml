@@ -276,6 +276,7 @@
     - ClothMade
     - HamsterWearable
     - WhitelistChameleon
+    - IanWearable
 
 - type: entity
   parent: ClothingHeadBase

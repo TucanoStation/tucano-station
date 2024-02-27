@@ -2,18 +2,16 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using Robust.Shared.Utility;
-using Robust.Shared.GameObjects.Components.Localization;
-using Robust.Shared.Enums;
 
 namespace Content.Shared.Localizations
 {
     public sealed class ContentLocalizationManager
     {
         [Dependency] private readonly ILocalizationManager _loc = default!;
-        [Dependency] private readonly IEntityManager _entMan = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "pt-BR";
+        private const string Culture = "ru-RU"; // Corvax-Localization
+        private const string FallbackCulture = "en-US"; // Corvax-Localization
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -29,8 +27,11 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
+            var fallbackCulture = new CultureInfo(FallbackCulture); // Corvax-Localization
 
             _loc.LoadCulture(culture);
+            _loc.LoadCulture(fallbackCulture); // Corvax-Localization
+            _loc.SetFallbackCluture(fallbackCulture); // Corvax-Localization
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -39,163 +40,19 @@ namespace Content.Shared.Localizations
             _loc.AddFunction(culture, "LOC", FormatLoc);
             _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
             _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
+            _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
 
-            //  Localizações pt-BR
-
-            _loc.AddFunction(culture, "ARTIGO", FormatArtigo);
-            _loc.AddFunction(culture, "ARTINDEF", FormatArtigoIndefinido);
-            _loc.AddFunction(culture, "PRONOME", FormatPronome);
-            _loc.AddFunction(culture, "PRODEM", FormatPronomeDemonstrativo);
-            _loc.AddFunction(culture, "DE", FormatPreposicaoPosse);
 
             /*
              * The following language functions are specific to the english localization. When working on your own
              * localization you should NOT modify these, instead add new functions specific to your language/culture.
              * This ensures the english translations continue to work as expected when fallbacks are needed.
              */
-            var cultureEn = new CultureInfo("pt-BR");
+            var cultureEn = new CultureInfo("en-US");
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
         }
-
-        // Substitui a função pelo artigo correto para o genero da entidade.
-        private ILocValue FormatArtigo(LocArgs args)
-        {
-            if (args.Args.Count < 1) return new LocValueString(nameof(Gender.Neuter));
-
-            ILocValue entity0 = args.Args[0];
-            if (entity0.Value != null)
-            {
-                EntityUid entity = (EntityUid)entity0.Value;
-
-                if(_entMan.TryGetComponent(entity, out GrammarComponent? grammar) && grammar.Gender.HasValue)
-                {
-                    return EscolherArtigo(grammar.Gender.Value);
-                }
-            }
-
-            return EscolherArtigo(Gender.Female);
-        }
-
-        private LocValueString EscolherArtigo(Gender gender) => gender switch
-        {
-            Gender.Neuter => new LocValueString("e"),
-            Gender.Epicene => new LocValueString("e"),
-            Gender.Female => new LocValueString("a"),
-            Gender.Male => new LocValueString("o"),
-            _ => new LocValueString("a")
-        };
-        
-        private ILocValue FormatArtigoIndefinido(LocArgs args)
-        {
-            if (args.Args.Count < 1) return new LocValueString(nameof(Gender.Neuter));
-
-            ILocValue entity0 = args.Args[0];
-            if (entity0.Value != null)
-            {
-                EntityUid entity = (EntityUid)entity0.Value;
-
-                if(_entMan.TryGetComponent(entity, out GrammarComponent? grammar) && grammar.Gender.HasValue)
-                {
-                    return EscolherArtigoIndefinido(grammar.Gender.Value);
-                }
-            }
-
-            return EscolherArtigoIndefinido(Gender.Female);
-        }
-
-        private LocValueString EscolherArtigoIndefinido(Gender gender) => gender switch
-        {
-            Gender.Neuter => new LocValueString("ume"),
-            Gender.Epicene => new LocValueString("ume"),
-            Gender.Female => new LocValueString("uma"),
-            Gender.Male => new LocValueString("um"),
-            _ => new LocValueString("uma")
-        };
-        
-        // Substitui a função pelo pronome correto para o genero da entidade.
-        private ILocValue FormatPronome(LocArgs args)
-        {
-            if (args.Args.Count < 1) return new LocValueString(nameof(Gender.Neuter));
-
-            ILocValue entity0 = args.Args[0];
-            if (entity0.Value != null)
-            {
-                EntityUid entity = (EntityUid)entity0.Value;
-
-                if(_entMan.TryGetComponent(entity, out GrammarComponent? grammar) && grammar.Gender.HasValue)
-                {
-                    return EscolherPronome(grammar.Gender.Value);
-                }
-            }
-
-            return EscolherPronome(Gender.Epicene);
-        }
-
-        private LocValueString EscolherPronome(Gender gender) => gender switch
-        {
-            Gender.Neuter => new LocValueString("isso"),
-            Gender.Epicene => new LocValueString("elu"),
-            Gender.Female => new LocValueString("ela"),
-            Gender.Male => new LocValueString("ele"),
-            _ => new LocValueString("ela")
-        };
-        
-        private ILocValue FormatPronomeDemonstrativo(LocArgs args)
-        {
-            if (args.Args.Count < 1) return new LocValueString(nameof(Gender.Neuter));
-
-            ILocValue entity0 = args.Args[0];
-            if (entity0.Value != null)
-            {
-                EntityUid entity = (EntityUid)entity0.Value;
-
-                if(_entMan.TryGetComponent(entity, out GrammarComponent? grammar) && grammar.Gender.HasValue)
-                {
-                    return EscolherPronomeDemonstrativo(grammar.Gender.Value);
-                }
-            }
-
-            return EscolherPronomeDemonstrativo(Gender.Epicene);
-        }
-
-        private LocValueString EscolherPronomeDemonstrativo(Gender gender) => gender switch
-        {
-            Gender.Neuter => new LocValueString("disso"),
-            Gender.Epicene => new LocValueString("delu"),
-            Gender.Female => new LocValueString("dela"),
-            Gender.Male => new LocValueString("dele"),
-            _ => new LocValueString("dela")
-        };
-
-        // Substitui a função pela preposição de posse (de, da, do) correto para o genero da entidade.
-        private ILocValue FormatPreposicaoPosse(LocArgs args)
-        {
-            if (args.Args.Count < 1) return new LocValueString(nameof(Gender.Neuter));
-
-            ILocValue entity0 = args.Args[0];
-            if (entity0.Value != null)
-            {
-                EntityUid entity = (EntityUid)entity0.Value;
-
-                if(_entMan.TryGetComponent(entity, out GrammarComponent? grammar) && grammar.Gender.HasValue)
-                {
-                    return EscolherPreposicaoPosse(grammar.Gender.Value);
-                }
-            }
-
-            return EscolherPreposicaoPosse(Gender.Epicene);
-        }
-
-        private LocValueString EscolherPreposicaoPosse(Gender gender) => gender switch
-        {
-            Gender.Neuter => new LocValueString("de"),
-            Gender.Epicene => new LocValueString("de"),
-            Gender.Female => new LocValueString("da"),
-            Gender.Male => new LocValueString("do"),
-            _ => new LocValueString("de")
-        };
 
         private ILocValue FormatMany(LocArgs args)
         {

@@ -12,6 +12,7 @@ using Content.Server.StationRecords.Systems;
 using Content.Shared.Administration;
 using Content.Shared.Administration.Events;
 using Content.Shared.CCVar;
+using Content.Shared.Corvax.CCCVars;
 using Content.Shared.GameTicking;
 using Content.Shared.Hands.Components;
 using Content.Shared.IdentityManagement;
@@ -77,6 +78,7 @@ namespace Content.Server.Administration.Systems
             Subs.CVar(_config, CCVars.PanicBunkerShowReason, OnShowReasonChanged, true);
             Subs.CVar(_config, CCVars.PanicBunkerMinAccountAge, OnPanicBunkerMinAccountAgeChanged, true);
             Subs.CVar(_config, CCVars.PanicBunkerMinOverallHours, OnPanicBunkerMinOverallHoursChanged, true);
+            Subs.CVar(_config, CCCVars.PanicBunkerDenyVPN, OnPanicBunkerDenyVpnChanged, true); // Corvax-VPNGuard
 
             SubscribeLocalEvent<IdentityChangedEvent>(OnIdentityChanged);
             SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
@@ -284,6 +286,14 @@ namespace Content.Server.Administration.Systems
             _panicBunker.MinOverallHours = hours;
             SendPanicBunkerStatusAll();
         }
+
+        // Corvax-VPNGuard-Start
+        private void OnPanicBunkerDenyVpnChanged(bool deny)
+        {
+            _panicBunker.DenyVpn = deny;
+            SendPanicBunkerStatusAll();
+        }
+        // Corvax-VPNGuard-End
 
         private void UpdatePanicBunker()
         {

@@ -30,6 +30,9 @@
     - id: FoodMeatCorgi
       amount: 2
     - id: MaterialHideCorgi
+  - type: Inventory
+    speciesId: Ian
+    templateId: Ian
   - type: Tag
     tags:
     - CannotSuicide
@@ -760,6 +763,8 @@
       gender: female
   - type: StealTarget
     stealGroup: AnimalSmile
+  - type: TTS # Corvax-TTS
+    voice: Dryad
 
 - type: entity
   name: Pun Pun

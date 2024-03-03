@@ -62,7 +62,7 @@
   - type: AmbientSound
     range: 8
     sound:
-      path: /Audio/Ambience/Objects/reactor.ogg
+      path: /Audio/Tucano/Ambience/Objects/reactor.ogg
   - type: StaticPrice
     price: 95000 # Raro e Valioso
   - type: PowerMonitoringDevice

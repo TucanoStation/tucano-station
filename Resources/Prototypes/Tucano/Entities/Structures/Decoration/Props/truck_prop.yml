@@ -11,7 +11,7 @@
     volume: 1
     range: 8
     sound:
-      path: /Audio/Ambience/Objects/truck_idle.ogg
+      path: /Audio/Tucano/Ambience/Objects/truck_idle.ogg
   - type: Sprite
     sprite: Tucano/Structures/Decoration/prop_truck.rsi
     state: truck
@@ -50,7 +50,7 @@
     volume: 1
     range: 8
     sound:
-      path: /Audio/Ambience/Objects/truck_idle.ogg
+      path: /Audio/Tucano/Ambience/Objects/truck_idle.ogg
   - type: Sprite
     sprite: Tucano/Structures/Decoration/prop_truck_cargo.rsi
     state: truck_cargo

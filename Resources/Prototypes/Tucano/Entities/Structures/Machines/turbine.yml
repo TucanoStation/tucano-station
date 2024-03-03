@@ -15,7 +15,7 @@
   - type: AmbientSound
     range: 9
     sound:
-      path: /Audio/Ambience/Objects/turbine_loop.ogg
+      path: /Audio/Tucano/Ambience/Objects/turbine_loop.ogg
   - type: PacifismDangerousAttack
   - type: Destructible
     thresholds:

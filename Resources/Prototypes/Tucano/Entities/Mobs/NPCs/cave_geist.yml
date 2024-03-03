@@ -38,7 +38,7 @@
       500: Dead
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Weapons/Xeno/geist_attack.ogg
+      path: /Audio/Tucano/Weapons/Xeno/geist_attack.ogg
     damage:
       types:
         Blunt: 25

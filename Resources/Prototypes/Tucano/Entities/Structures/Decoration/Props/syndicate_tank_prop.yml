@@ -31,7 +31,7 @@
     volume: -2
     range: 6
     sound:
-      path: /Audio/Ambience/Objects/tank_idle.ogg
+      path: /Audio/Tucano/Ambience/Objects/tank_idle.ogg
 
 - type: entity
   id: StructurePropTankDestroyed

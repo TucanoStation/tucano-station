@@ -1,14 +1,15 @@
+# Achou que era um tanque de verdade? Não, só uma decoração.
 - type: entity
-  id: StructurePropApc
-  name: NT-T14A9 I.F.V 
-  description: A modern, non-functional model of a infantry fighting vehicle. Its engine is still working.
+  id: StructurePropTankAlt
+  name: NTAV-14A9 Light Tank
+  description: A modern, yet forgotten model of a light tank. It's used mostly for display, since it doesn't work anymore, but its engine is still on.
   placement:
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Tucano/Structures/Decoration/prop_apc.rsi
+    sprite: Tucano/Structures/Decoration/prop_alttank.rsi
     layers:
-      - state: apc
+      - state: tank
   - type: Transform
     anchored: true
   - type: Clickable
@@ -30,19 +31,19 @@
     volume: -2
     range: 6
     sound:
-      path: /Audio/Ambience/Objects/tank_idle.ogg
+      path: /Audio/Tucano/Ambience/Objects/tank_idle.ogg
 
 - type: entity
-  id: StructurePropApcDestroyed
-  name: Destroyed NT-T14A9 I.F.V 
-  description: A modern, non-functional model of a infantry fighting vehicle. This one is destroyed.
+  id: StructurePropTankDestroyedAlt
+  name: Destroyed NTAV-14A9 Light Tank
+  description: A modern, yet forgotten model of a light tank. This one is destroyed.
   placement:
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Tucano/Structures/Decoration/prop_apc_destroyed.rsi
+    sprite: Tucano/Structures/Decoration/prop_alttank_destroyed.rsi
     layers:
-      - state: apc_destroyed
+      - state: tank_destroyed
   - type: Transform
     anchored: true
   - type: Clickable

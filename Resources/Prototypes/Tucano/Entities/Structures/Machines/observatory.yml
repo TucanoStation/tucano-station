@@ -18,7 +18,7 @@
   - type: AmbientSound
     enabled: true
     sound:
-      path: /Audio/Machines/observatory.ogg
+      path: /Audio/Tucano/Machines/observatory.ogg
     range: 6
     volume: -5
   - type: PointLight

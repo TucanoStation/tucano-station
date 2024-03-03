@@ -32,7 +32,7 @@
     availableModes:
     - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/railgun.ogg
+      path: /Audio/Tucano/Weapons/Guns/Gunshots/railgun.ogg
   - type: Wieldable
   - type: GunWieldBonus
     minAngle: -20
@@ -59,7 +59,7 @@
   damage:
     types:
       Heat: 50
-      Structural: 250 # É uma railgun, ela penetra por estruturas facilmente 
+      Structural: 250 # É uma railgun, ela penetra por estruturas facilmente
       Piercing: 75 # E carne
   muzzleFlash:
     sprite: Tucano/Objects/Weapons/Guns/Projectiles/railgun_shot.rsi

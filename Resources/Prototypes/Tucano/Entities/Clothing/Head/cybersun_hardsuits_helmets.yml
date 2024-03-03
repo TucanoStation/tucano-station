@@ -1,5 +1,6 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
+  nospawn: true
   id: ClothingHeadHelmetHardsuitSCybersun
   name: Cybersun's Standard-Model Hardsuit Helmet
   description: The helmet of the cybersun's standard hardsuit.
@@ -26,6 +27,7 @@
 
 - type: entity
   parent: ClothingHeadHardsuitBase
+  nospawn: true
   id: ClothingHeadHelmetHardsuitCybersunMedic
   name: Cybersun's Medical Hardsuit Helmet
   description: The helmet of the cybersun's medical hardsuit.

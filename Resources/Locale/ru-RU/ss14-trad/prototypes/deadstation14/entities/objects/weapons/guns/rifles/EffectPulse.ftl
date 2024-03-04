@@ -1,0 +1,2 @@
+ent-EffectPulse = EffectPulse
+    .desc = { "" }

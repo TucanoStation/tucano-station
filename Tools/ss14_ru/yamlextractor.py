@@ -48,7 +48,7 @@ class YAMLExtractor:
         return en_fluent_file.full_path
 
     def create_ru_fluent_file(self, en_analog_file_path):
-        ru_file_full_path = en_analog_file_path.replace('en-US', 'pt-BR')
+        ru_file_full_path = en_analog_file_path.replace('ru-RU', 'pt-BR')
 
         if os.path.isfile(ru_file_full_path):
             return

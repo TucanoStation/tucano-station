@@ -33,14 +33,14 @@ class FilesFinder:
         if locale == 'pt-BR':
             return RelativeFile(file=file, locale=locale,
                                 relative_path_from_locale=file.get_relative_path(self.project.ru_locale_dir_path))
-        elif locale == 'en-US':
+        elif locale == 'ru-RU':
             return RelativeFile(file=file, locale=locale,
                                 relative_path_from_locale=file.get_relative_path(self.project.en_locale_dir_path))
         else:
             raise Exception(f'Local {locale} não suportado')
 
     def get_file_pair(self, en_file: FluentFile) -> typing.Tuple[FluentFile, FluentFile]:
-        ru_file_path = en_file.full_path.replace('en-US', 'pt-BR')
+        ru_file_path = en_file.full_path.replace('ru-RU', 'pt-BR')
         ru_file = FluentFile(ru_file_path)
 
         return en_file, ru_file
@@ -53,7 +53,7 @@ class FilesFinder:
         for key_without_pair in keys_without_pair:
             relative_file: RelativeFile = groups.get(key_without_pair)[0]
 
-            if relative_file.locale == 'en-US':
+            if relative_file.locale == 'ru-RU':
                 ru_file = self.create_ru_analog(relative_file)
                 self.created_files.append(ru_file)
             elif relative_file.locale == 'pt-BR':
@@ -70,7 +70,7 @@ class FilesFinder:
         en_fluent_files = self.project.get_fluent_files_by_dir(project.en_locale_dir_path)
         ru_fluent_files = self.project.get_fluent_files_by_dir(project.ru_locale_dir_path)
 
-        en_fluent_relative_files = list(map(lambda f: self.get_relative_path_dict(f, 'en-US'), en_fluent_files))
+        en_fluent_relative_files = list(map(lambda f: self.get_relative_path_dict(f, 'ru-RU'), en_fluent_files))
         ru_fluent_relative_files = list(map(lambda f: self.get_relative_path_dict(f, 'pt-BR'), ru_fluent_files))
         relative_files = py_.flatten_depth(py_.concat(en_fluent_relative_files, ru_fluent_relative_files), depth=1)
 
@@ -79,7 +79,7 @@ class FilesFinder:
     def create_ru_analog(self, en_relative_file: RelativeFile) -> FluentFile:
         en_file: FluentFile = en_relative_file.file
         en_file_data = en_file.read_data()
-        ru_file_path = en_file.full_path.replace('en-US', 'pt-BR')
+        ru_file_path = en_file.full_path.replace('ru-RU', 'pt-BR')
         ru_file = FluentFile(ru_file_path)
         ru_file.save_data(en_file_data)
 
@@ -89,7 +89,7 @@ class FilesFinder:
 
     def warn_en_analog_not_exist(self, ru_relative_file: RelativeFile):
         file: FluentFile = ru_relative_file.file
-        en_file_path = file.full_path.replace('pt-BR', 'en-US')
+        en_file_path = file.full_path.replace('pt-BR', 'ru-RU')
 
         logging.warning(f'Arquivo {file.full_path} não tem equivalente em inglês ao longo do caminho {en_file_path}')
 
@@ -103,7 +103,7 @@ class KeyFinder:
         self.changed_files = []
         for pair in self.files_dict:
             ru_relative_file = py_.find(self.files_dict[pair], {'locale': 'pt-BR'})
-            en_relative_file = py_.find(self.files_dict[pair], {'locale': 'en-US'})
+            en_relative_file = py_.find(self.files_dict[pair], {'locale': 'ru-RU'})
 
             if not en_relative_file or not ru_relative_file:
                 continue

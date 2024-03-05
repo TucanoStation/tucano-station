@@ -10,7 +10,6 @@
   footstepSounds:
     collection: BarestepWood
   friction: 0.30
-  itemDrop: FloorTileItemWoodOak
   thermalConductivity: 0.04
   heatCapacity: 10000
 
@@ -41,7 +40,6 @@
   footstepSounds:
     collection: BarestepWood
   friction: 0.30
-  itemDrop: FloorTileItemWoodHouse
   thermalConductivity: 0.04
   heatCapacity: 10000
 
@@ -72,6 +70,5 @@
   footstepSounds:
     collection: BarestepWood
   friction: 0.30
-  itemDrop: FloorTileItemWoodMaple
   thermalConductivity: 0.04
   heatCapacity: 10000

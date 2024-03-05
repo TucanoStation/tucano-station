@@ -1,18 +1,21 @@
 - type: entity
-  name: Automatic Grenade Launcher
-  suffix: Japan-Riveru
+  name: NT-MGL "J-Riveru"
   parent: BaseWeaponLauncher
-  id: WeaponLauncherNT
+  id: WeaponLauncherJapanRiveru
   description: A NanoTrasen-Brand, Revolver-Type Grenade Launcher, holds six shells of grenades.
   components:
   - type: Sprite
-    sprite: Tucano/Objects/Weapons/Guns/Launchers/nt_mgl.rsi
+    sprite: Tucano/Objects/Weapons/Guns/Launchers/japan_riveru.rsi
     layers:
       - state: icon
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: Tucano/Objects/Weapons/Guns/Launchers/nt_mgl.rsi
+    sprite: Tucano/Objects/Weapons/Guns/Launchers/japan_riveru.rsi
   - type: AmmoCounter
+  - type: Wieldable
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -20
   - type: Gun
     fireRate: 2
     selectedMode: FullAuto
@@ -20,7 +23,7 @@
       - SemiAuto
       - FullAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
+      path: /Audio/Tucano/Weapons/Guns/Gunshots/japan_riveru.ogg
   - type: BallisticAmmoProvider
     whitelist:
       tags:

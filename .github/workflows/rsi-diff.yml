@@ -7,6 +7,8 @@ on:
 
 jobs:
   diff:
+    permissions:
+      pull-requests: write
     name: Diff
     runs-on: ubuntu-latest
     steps:

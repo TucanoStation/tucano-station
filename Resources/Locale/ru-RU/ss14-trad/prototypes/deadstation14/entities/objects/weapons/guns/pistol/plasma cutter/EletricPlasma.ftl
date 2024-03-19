@@ -1,0 +1,2 @@
+ent-EletricPlasma = EletricPlasma
+    .desc = { "" }

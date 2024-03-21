@@ -5,7 +5,6 @@
   variants: 1
   baseTurf: space
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepAsteroid
   friction: 0.60

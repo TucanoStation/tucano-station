@@ -1,0 +1,51 @@
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  nospawn: true
+  id: ClothingHeadHelmetHardsuitMarine
+  name: NanoTrasen's Marine Corps Hardsuit Helmet
+  description: The helmet used by the Nanotrasen's marine hardsuit.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Tucano/Clothing/Head/Hardsuits/marine_hardsuit_helmet.rsi
+  - type: Clothing
+    sprite: Tucano/Clothing/Head/Hardsuits/marine_hardsuit_helmet.rsi
+  - type: PointLight
+    color: "#fffee0"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.8
+        Piercing: 0.7
+        Heat: 0.7
+
+# Commander
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  nospawn: true
+  id: ClothingHeadHelmetHardsuitMarineCommander
+  name: NanoTrasen's Marine Marine Squad Leader Hardsuit Helmet
+  description: The helmet used by the Nanotrasen's squad leader marine hardsuit.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Tucano/Clothing/Head/Hardsuits/marine_commander_hardsuit_helmet.rsi
+  - type: Clothing
+    sprite: Tucano/Clothing/Head/Hardsuits/marine_commander_hardsuit_helmet.rsi
+  - type: PointLight
+    color: "#fffee0"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7

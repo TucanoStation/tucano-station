@@ -4,7 +4,6 @@
   sprite: /Textures/Tucano/Tiles/tunnelintact.png
   baseTurf: FloorWasteland
   isSubfloor: true
-  canCrowbar: true
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -17,7 +16,6 @@
   sprite: /Textures/Tucano/Tiles/tunnelrusty.png
   baseTurf: FloorWasteland
   isSubfloor: true
-  canCrowbar: true
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -32,7 +30,6 @@
   placementVariants: [0, 1, 2, 3, 5, 6, 7, 8, 9, 10]
   baseTurf: FloorWasteland
   isSubfloor: true
-  canCrowbar: true
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -45,7 +42,6 @@
   sprite: /Textures/Tucano/Tiles/rubble.png
   baseTurf: space
   isSubfloor: true
-  canCrowbar: false
   footstepSounds:
     collection: FootstepAsteroid
   friction: 0.30

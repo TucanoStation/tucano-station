@@ -6,7 +6,6 @@
   placementVariants: [0, 1, 2, 3, 4, 5]
   baseTurf: FloorWasteland
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -21,7 +20,6 @@
   variants: 1
   baseTurf: FloorWasteland
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -36,7 +34,6 @@
   variants: 1
   baseTurf: FloorWasteland
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -52,7 +49,6 @@
   placementVariants: [0, 1, 2, 3, 4, 5]
   baseTurf: FloorWasteland
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30
@@ -68,7 +64,6 @@
   placementVariants: [0, 1, 2, 3, 4, 5]
   baseTurf: FloorWasteland
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepFloor
   friction: 0.30

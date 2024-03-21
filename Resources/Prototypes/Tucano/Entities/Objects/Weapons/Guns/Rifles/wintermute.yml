@@ -90,14 +90,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineCaselessRifleShortRubber
+            - MagazineCaselessRifle
       gun_chamber:
         name: Chamber
         startingItem: CartridgeCaselessRifleRubber
         priority: 1
         whitelist:
           tags:
-            - CartridgeCaselessRifleRubber
+            - CartridgeCaselessRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

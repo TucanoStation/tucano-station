@@ -19,10 +19,10 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/Effects/metalbreak.ogg
+          path: /Audio/Effects/metal_break5.ogg
       - !type:DoActsBehavior
         acts: ["Destruction"]
-  - type: Sharp 
+  - type: Sharp
   - type: DamageOtherOnHit
     damage:
       types:

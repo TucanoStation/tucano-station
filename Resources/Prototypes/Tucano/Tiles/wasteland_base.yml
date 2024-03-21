@@ -6,7 +6,6 @@
   placementVariants: [0, 1, 2, 3]
   baseTurf: space
   isSubfloor: false
-  canCrowbar: false
   footstepSounds:
     collection: FootstepAsteroid
   friction: 0.30

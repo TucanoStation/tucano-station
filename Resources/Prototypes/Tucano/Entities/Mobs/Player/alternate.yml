@@ -18,7 +18,7 @@
   - type: MovementSpeedModifier
   - type: MeleeWeapon
     soundHit:
-      path: /Audio/Weapons/Xeno/wendigo-attack.ogg
+      path: /Audio/Tucano/Weapons/Xeno/wendigo-attack.ogg
     angle: 0
     animation: WeaponArcClaw
     damage:

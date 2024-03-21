@@ -1,0 +1,67 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMarine
+  name: NanoTrasen's Marine Corps Hardsuit
+  description: The standard of armor of the NT's Marine Corps, used by the marines, obviously.
+  components:
+  - type: Sprite
+    sprite: Tucano/Clothing/OuterClothing/Hardsuits/marine_hardsuit.rsi
+  - type: Clothing
+    sprite: Tucano/Clothing/OuterClothing/Hardsuits/marine_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarine
+
+# Commander
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMarineCommander
+  name: NanoTrasen's Marine Squad Leader Hardsuit
+  description: The standard of armor of the Marine Corps Squad Leaders, used by the squad leaders, obviously.
+  components:
+  - type: Sprite
+    sprite: Tucano/Clothing/OuterClothing/Hardsuits/marine_commander_hardsuit.rsi
+  - type: Clothing
+    sprite: Tucano/Clothing/OuterClothing/Hardsuits/marine_commander_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.6
+        Piercing: 0.5
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarineCommander

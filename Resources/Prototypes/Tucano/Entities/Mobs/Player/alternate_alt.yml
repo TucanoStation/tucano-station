@@ -22,7 +22,7 @@
   - type: MeleeWeapon
     altDisarm: true
     soundHit:
-      path: /Audio/Weapons/Xeno/wendigo-attack.ogg
+      path: /Audio/Tucano/Weapons/Xeno/wendigo-attack.ogg
     angle: 0
     animation: WeaponArcClaw
     damage:
@@ -65,12 +65,12 @@
 - type: soundCollection
   id: alternate
   files:
-    - /Audio/Voice/Alternate/alternate_1.ogg
-    - /Audio/Voice/Alternate/alternate_2.ogg
-    - /Audio/Voice/Alternate/alternate_3.ogg
-    - /Audio/Voice/Alternate/alternate_4.ogg
-    - /Audio/Voice/Alternate/alternate_5.ogg
-    - /Audio/Voice/Alternate/alternate_6.ogg
-    - /Audio/Voice/Alternate/alternate_7.ogg
-    - /Audio/Voice/Alternate/alternate_8.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_1.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_2.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_3.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_4.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_5.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_6.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_7.ogg
+    - /Audio/Tucano/Voice/Alternate/alternate_8.ogg
 

@@ -1,3 +1,7 @@
+  - type: Tag
+    tags:
+      - CartrigdePulsos
+
 - type: entity
   id: CartrigdePulsos
   name: Pulsos

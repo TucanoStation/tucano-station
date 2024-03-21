@@ -1,6 +1,5 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  nospawn: true
   id: ClothingHeadHelmetHardsuitMarine
   name: NanoTrasen's Marine Corps Hardsuit Helmet
   description: The helmet used by the Nanotrasen's marine hardsuit.
@@ -27,7 +26,6 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  nospawn: true
   id: ClothingHeadHelmetHardsuitMarineCommander
   name: NanoTrasen's Marine Marine Squad Leader Hardsuit Helmet
   description: The helmet used by the Nanotrasen's squad leader marine hardsuit.

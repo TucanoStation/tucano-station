@@ -22,6 +22,9 @@ ent-ClothingEyesGlassesJamjar = jamjar glasses
 ent-ClothingEyesGlassesOutlawGlasses = outlaw glasses
     .desc = A must for every self-respecting undercover agent.
 
+ent-ClothingEyesGlassesCheapSunglasses = cheap sunglasses
+    .desc = A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
+
 ent-ClothingEyesGlassesSunglasses = sun glasses
     .desc = A pair of black sunglasses.
 

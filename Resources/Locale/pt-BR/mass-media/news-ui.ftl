@@ -1,7 +1,11 @@
 news-read-ui-next-text = Next
+news-read-ui-prev-text = ◀
+news-read-ui-next-tooltip = Далее
+news-read-ui-prev-tooltip = Назад
 news-read-ui-past-text = Past
 news-read-ui-default-title = Station News
 news-read-ui-not-found-text = No articles found
+news-reader-ui-mute-tooltip = Отключить уведомления
 news-read-ui-time-prefix-text = Publication time:
 news-read-ui-notification-off = ̶♫̶
 news-read-ui-notification-on = ♫
@@ -9,8 +13,32 @@ news-read-ui-no-author = Anonymous
 news-read-ui-author-prefix = Author:
 news-write-ui-default-title = Mass-media Management
 news-write-ui-articles-label = Articles:
+news-write-ui-publish-text = Опубликовать
+news-write-ui-create-text = Создать
+news-write-ui-cancel-text = Отмена
+news-write-ui-preview-text = Предпросмотр
+news-write-ui-article-count-0 = 0 статей
+news-write-ui-article-count-text =
+    { $count } { $count ->
+        [one] статья
+        [few] статьи
+       *[other] статей
+    }
+news-write-ui-footer-text = Система управления новостями Менеджер#Новостей™
+news-write-ui-new-article = Новая статья
 news-write-ui-delete-text = Delete
 news-write-ui-share-text = Publish
+news-writer-text-length-exceeded = Текст превышает максимальный объём
+news-write-ui-richtext-tooltip =
+    Новостные статьи поддерживают формат Rich Text
+    Поддерживаются следующие теги Rich Text:
+    { "[color=Gray][bullet/]heading \\[size=1-3\\]" }
+    { "[bullet/]bold" }
+    { "[bullet/]italic" }
+    { "[bullet/]bolditalic" }
+    { "[bullet/]color" }
+    { "[bullet/]bullet[/color]" }
+news-pda-notification-header = Новая новостная статья
 news-write-ui-article-name-label = Heading:
 news-write-ui-article-content-label = Content:
 news-write-no-access-popup = No access

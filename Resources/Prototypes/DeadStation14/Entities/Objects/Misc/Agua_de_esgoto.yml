@@ -29,7 +29,7 @@
     drawdepth: BelowFloor
     layers:
       - state: shoreline_water
-  - type: SlowContacts
+  - type: SpeedModifierContacts
     walkSpeedModifier: 0.4
     sprintSpeedModifier: 0.4
   - type: Physics

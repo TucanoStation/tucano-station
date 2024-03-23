@@ -22,3 +22,6 @@ ent-ClothingHandsGlovesColorYellow = insulated gloves
     .desc = These gloves will protect the wearer from electric shocks.
 ent-ClothingHandsGlovesColorYellowBudget = budget insulated gloves
     .desc = These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+ent-ClothingHandsGlovesConducting = { ent-ClothingHandsGlovesColorYellow }
+    .desc = { "" }
+    .suffix = Conducting

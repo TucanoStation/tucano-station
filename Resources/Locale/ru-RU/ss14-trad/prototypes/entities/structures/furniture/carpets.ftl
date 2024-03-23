@@ -1,29 +1,45 @@
-ent-CarpetBase = { ent-BaseStructure }
+ent-CarpetBase = carpet
     .desc = Fancy walking surface.
 
-ent-Carpet = red carpet
+ent-Carpet = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Red
 
-ent-CarpetBlack = black carpet
+ent-CarpetBlack = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Black
 
-ent-CarpetPink = pink carpet
+ent-CarpetPink = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Pink
 
-ent-CarpetBlue = blue carpet
+ent-CarpetBlue = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Blue
 
-ent-CarpetGreen = green carpet
+ent-CarpetGreen = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Green
 
-ent-CarpetOrange = orange carpet
+ent-CarpetOrange = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Orange
 
-ent-CarpetSBlue = skyblue carpet
+ent-CarpetSBlue = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Sky Blue
 
-ent-CarpetPurple = purple carpet
+ent-CarpetPurple = { ent-CarpetBase }
     .desc = { "" }
+    .suffix = Purple
+
+ent-CarpetCyan = { ent-CarpetBase }
+    .desc = { "" }
+    .suffix = Cyan
+
+ent-CarpetWhite = { ent-CarpetBase }
+    .desc = { "" }
+    .suffix = White
 
 ent-CarpetChapel = chapel's carpet
     .desc = { "" }

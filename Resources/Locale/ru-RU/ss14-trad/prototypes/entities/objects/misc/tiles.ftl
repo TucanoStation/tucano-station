@@ -34,6 +34,12 @@ ent-FloorTileItemMono = mono tile
 ent-FloorTileItemLino = linoleum floor
     .desc = { "" }
 
+ent-FloorTileItemBrassFilled = filled brass plate
+    .desc = { "" }
+
+ent-FloorTileItemBrassReebe = smooth brass plate
+    .desc = { "" }
+
 ent-FloorTileItemDirty = dirty tile
     .desc = { "" }
 
@@ -185,3 +191,6 @@ ent-FloorTileItemAstroGrass = astro-grass
 
 ent-FloorTileItemAstroIce = astro-ice
     .desc = Fake ice that's as slippery as the real thing, while being easily removable!
+
+ent-FloorTileItemWoodLarge = large wood floor
+    .desc = { "" }

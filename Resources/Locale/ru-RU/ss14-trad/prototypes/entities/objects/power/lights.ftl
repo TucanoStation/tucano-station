@@ -1,6 +1,9 @@
 ent-LightBulb = incandescent light bulb
     .desc = A light bulb.
 
+ent-LedLightBulb = led light bulb
+    .desc = A power efficient light bulb.
+
 ent-LightBulbOld = old incandescent light bulb
     .desc = An aging light bulb.
 

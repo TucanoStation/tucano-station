@@ -28,9 +28,6 @@ ent-CrateFunArtSupplies = art supplies
 ent-CrateFunBoardGames = board game crate
     .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
 
-ent-CrateFunATV = ATV crate
-    .desc = An Absolutely Taxable Vehicle to help cargo with hauling.
-
 ent-CrateFunSadTromboneImplants = sad trombone implants
     .desc = Death's never been so fun before! Implant these to make dying a bit more happy.
 
@@ -42,9 +39,6 @@ ent-CrateFunParty = party crate
 
 ent-CrateFunWaterGuns = water gun crate
     .desc = A summer special with a variety of brightly colored water guns. Water not included.
-
-ent-CrateFunSyndicateSegway = Syndicate segway crate
-    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.
 
 ent-CrateFunBoxing = boxing crate
     .desc = Want to set up an underground fight club or host a tournament amongst station crew? This crate is for you!
@@ -62,6 +56,10 @@ ent-CrateFunBikeHornImplants = bike horn implants
 
 ent-CrateFunMysteryFigurines = mystery figure crate
     .desc = A collection of 10 Mystery Figurine boxes. Duplicates non refundable.
+
+ent-CrateFunSprayPaints = spray paint crate
+    .desc = a crate filled with spray paint.
+    .suffix = Spray Paint
 
 ent-CrateFunDartsSet = dartboard box set
     .desc = A box with everything you need for a fun game of darts.

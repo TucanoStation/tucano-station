@@ -1,13 +1,17 @@
 ent-MobHuman = Urist McHands
     .desc = { "" }
 
+ent-MobHumanSyndicateAgentBase = syndicate agent
+    .desc = { "" }
+    .suffix = Human, Base
+
 ent-MobHumanSyndicateAgent = syndicate agent
     .desc = { "" }
-    .suffix = Human
+    .suffix = Human, Traitor
 
-ent-MobHumanSyndicateAgentNukeops = { ent-MobHumanSyndicateAgent }
+ent-MobHumanSyndicateAgentNukeops = { ent-MobHumanSyndicateAgentBase }
     .desc = { "" }
-    .suffix = NukeOps
+    .suffix = Human, NukeOps
 
 ent-MobHumanNukeOp = Nuclear Operative
     .desc = { "" }

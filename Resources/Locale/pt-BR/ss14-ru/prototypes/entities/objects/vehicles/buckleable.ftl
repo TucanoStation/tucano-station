@@ -12,6 +12,7 @@ ent-VehicleATV = ATV
     .desc = All-Tile Vehicle.
 ent-VehicleSyndicateSegway = syndicate segway
     .desc = Be an enemy of the corporation, in style.
+    .suffix = сегвей синдиката
 ent-VehicleSkeletonMotorcycle = skeleton motorcycle
     .desc = Bad to the Bone.
 ent-VehicleUnicycle = unicycle

@@ -25,15 +25,6 @@
   rules: NearPrayable
   priority: 4
 
-- type: ambientMusic
-  id: Train
-  sound:
-    params:
-      volume: -8
-    collection: AmbienceTrain
-  rules: NearTrain
-  priority: 4
-
 # Departments
 - type: ambientMusic
   id: Medical
@@ -215,16 +206,6 @@
     - /Audio/Ambience/ambiruin7.ogg
 
 - type: soundCollection
-  id: AmbienceTrain
-  files:
-    - /Audio/Ambience/ambitrain1.ogg
-    - /Audio/Ambience/ambitrain2.ogg
-    - /Audio/Ambience/ambitrain3.ogg
-    - /Audio/Ambience/ambiruin3.ogg
-    - /Audio/Ambience/ambiruin5.ogg
-    - /Audio/Ambience/ambiruin6.ogg
-
-- type: soundCollection
   id: AmbienceSpookyFog
   files:
     - /Audio/Ambience/spookyspace1.ogg
@@ -280,16 +261,6 @@
       tiles:
         - Plating
       range: 2
-
-- type: rules
-  id: NearTrain
-  rules:
-    - !type:NearbyTilesPercentRule
-      ignoreAnchored: true
-      percent: 0.05
-      tiles:
-        - TrainLattice
-      range: 4
 
 - type: rules
   id: NearMedical

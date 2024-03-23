@@ -33,3 +33,7 @@ ent-ClothingHandsGlovesColorYellow = insulated gloves
 
 ent-ClothingHandsGlovesColorYellowBudget = budget insulated gloves
     .desc = These gloves are cheap knockoffs of the coveted ones - no way this can end badly.
+
+ent-ClothingHandsGlovesConducting = { ent-ClothingHandsGlovesColorYellow }
+    .desc = { "" }
+    .suffix = Conducting

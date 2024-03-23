@@ -1,4 +1,6 @@
+war-declarator-not-working = Устройство пищит, но ничего не происходит...
 war-declarator-not-nukeops = The device makes beeping noises, but nothing happens...
+war-declarator-ui-try-war-button = Попробовать объявить войну
 war-declarator-ui-header = Declaration of War
 war-declarator-ui-war-button = DECLARE WAR!
 war-declarator-conditions-small-crew = Less than { $min } operatives

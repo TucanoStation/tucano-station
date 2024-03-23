@@ -9,6 +9,7 @@ replay-loading-starting = Starting Entities
 replay-loading-failed =
     Failed to load replay:
     { $reason }
+replay-loading-retry = Try load with more exception tolerance - MAY CAUSE BUGS!
 # Main Menu
 replay-menu-subtext = Replay Client
 replay-menu-load = Load Selected Replay

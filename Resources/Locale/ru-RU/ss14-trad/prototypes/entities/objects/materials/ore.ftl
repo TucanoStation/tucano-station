@@ -64,3 +64,11 @@ ent-Coal = coal
 ent-Coal1 = { ent-Coal }
     .desc = { "" }
     .suffix = Single
+
+ent-SaltOre = salt
+    .desc = { "" }
+    .suffix = Full
+
+ent-Salt1 = { ent-SaltOre }
+    .desc = { "" }
+    .suffix = Single

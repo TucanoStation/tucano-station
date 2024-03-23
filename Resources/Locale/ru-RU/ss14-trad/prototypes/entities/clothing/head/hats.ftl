@@ -178,8 +178,8 @@ ent-ClothingHeadHatTacticalMaidHeadband = tactical maid headband
 ent-ClothingHeadHatHetmanHat = hetman hat
     .desc = From the Zaporozhian Sich with love.
 
-ent-ClothingHeadHatMagician = magician's top hat.
-    .desc = A magician's top hat.
+ent-ClothingHeadHatMagician = magician's tophat
+    .desc = A magician's tophat.
 
 ent-ClothingHeadHatCapcap = cap cap
     .desc = A grand, stylish captain cap.

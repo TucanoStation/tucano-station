@@ -13,6 +13,9 @@ ent-CrateMaterialPlastic = plastic sheet crate
 ent-CrateMaterialWood = wood crate
     .desc = Bunch of wood planks.
 
+ent-CrateMaterialBrass = brass crate
+    .desc = 90 sheets of brass.
+
 ent-CrateMaterialPlasteel = plasteel crate
     .desc = 90 sheets of plasteel.
 

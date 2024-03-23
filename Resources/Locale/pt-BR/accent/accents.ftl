@@ -102,3 +102,8 @@ accent-words-kobold-6 = Gronk!
 accent-words-kobold-7 = Hiss!
 accent-words-kobold-8 = Eeee!
 accent-words-kobold-9 = Yip.
+# Nymph
+accent-words-nymph-1 = Чирик!
+accent-words-nymph-2 = Чурр...
+accent-words-nymph-3 = Чипи?
+accent-words-nymph-4 = Шрруп!

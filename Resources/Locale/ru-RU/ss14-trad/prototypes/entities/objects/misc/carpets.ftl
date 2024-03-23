@@ -1,23 +1,39 @@
-ent-FloorCarpetItemRed = red carpet
+ent-FloorCarpetItemRed = carpet
     .desc = { "" }
+    .suffix = Red
 
-ent-FloorCarpetItemBlack = black carpet
+ent-FloorCarpetItemBlack = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Black
 
-ent-FloorCarpetItemBlue = blue carpet
+ent-FloorCarpetItemBlue = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Blue
 
-ent-FloorCarpetItemGreen = green carpet
+ent-FloorCarpetItemGreen = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Green
 
-ent-FloorCarpetItemOrange = orange carpet
+ent-FloorCarpetItemOrange = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Orange
 
-ent-FloorCarpetItemSkyBlue = sky blue carpet
+ent-FloorCarpetItemSkyBlue = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Sky Blue
 
-ent-FloorCarpetItemPurple = purple carpet
+ent-FloorCarpetItemPurple = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Purple
 
-ent-FloorCarpetItemPink = pink carpet
+ent-FloorCarpetItemPink = { ent-FloorCarpetItemRed }
     .desc = { "" }
+    .suffix = Pink
+
+ent-FloorCarpetItemCyan = { ent-FloorCarpetItemRed }
+    .desc = { "" }
+    .suffix = Cyan
+
+ent-FloorCarpetItemWhite = { ent-FloorCarpetItemRed }
+    .desc = { "" }
+    .suffix = White

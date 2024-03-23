@@ -8,3 +8,5 @@ ent-ShardGlassPlasma = plasma glass shard
     .desc = A small piece of plasma glass.
 ent-ShardGlassUranium = uranium glass shard
     .desc = A small piece of uranium glass.
+ent-ShardGlassClockwork = осколок заводного стекла
+    .desc = Небольшой кусок стекла с вкраплениями латуни.

@@ -11,7 +11,7 @@ ent-CrateEngineeringSingularityEmitter = emitter crate
     .desc = An emitter, best used for singularity engines.
 
 ent-CrateEngineeringSingularityCollector = radiation collector crate
-    .desc = A radiation collector, best used for singularity engines.
+    .desc = A radiation collector, best used for singularity engines. Plasma is included.
 
 ent-CrateEngineeringSingularityContainment = containment field generator crate
     .desc = A containment field generator, keeps the singulo in submission.

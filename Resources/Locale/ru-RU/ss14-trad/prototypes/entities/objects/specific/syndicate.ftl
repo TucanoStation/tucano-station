@@ -30,6 +30,10 @@ ent-BaseUplinkRadio40TC = { ent-BaseUplinkRadio }
     .desc = { "" }
     .suffix = 40 TC, NukeOps
 
+ent-BaseUplinkRadio60TC = { ent-BaseUplinkRadio }
+    .desc = { "" }
+    .suffix = 60 TC, LoneOps
+
 ent-BaseUplinkRadioDebug = { ent-BaseUplinkRadio }
     .desc = { "" }
     .suffix = DEBUG

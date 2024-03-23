@@ -76,3 +76,5 @@ ent-MaterialBones = bones
 ent-MaterialBones1 = { ent-MaterialBones }
     .desc = { "" }
     .suffix = 1
+ent-MaterialGunpowder = gunpowder
+    .desc = An explosive compound.

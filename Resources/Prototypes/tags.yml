@@ -283,6 +283,8 @@
   id: CarpetBlack
 
 - type: Tag
+  id: CannonBall
+- type: Tag
   id: CarpetBlue
 
 - type: Tag
@@ -750,9 +752,6 @@
 
 - type: Tag
   id: IntercomElectronics
-
-- type: Tag
-  id: JanicartKeys
 
 - type: Tag
   id: JawsOfLife
@@ -1252,9 +1251,6 @@
 
 - type: Tag
   id: Vegetable
-
-- type: Tag
-  id: VehicleKey
 
 - type: Tag
   id: VimPilot

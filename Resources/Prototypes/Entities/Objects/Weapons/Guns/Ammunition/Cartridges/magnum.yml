@@ -13,10 +13,11 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
-    - state: base
+    - state: .45
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
+    state: ".45"
 
 - type: entity
   id: CartridgeMagnum

@@ -687,6 +687,9 @@
   id: IntercomElectronics
 
 - type: Tag
+  id: JanicartKeys
+
+- type: Tag
   id: JawsOfLife
 
 - type: Tag
@@ -840,6 +843,9 @@
 
 - type: Tag
   id: Ointment
+
+- type: Tag
+  id: OccultistSabre
 
 - type: Tag
   id: Ore
@@ -1017,6 +1023,9 @@
   id: ShellShotgun
 
 - type: Tag
+  id: ShellShotgunHotshot
+
+- type: Tag
   id: Shiv
 
 - type: Tag
@@ -1144,6 +1153,9 @@
 
 - type: Tag
   id: UraniumGlassShard
+
+- type: Tag
+  id: VehicleKey
 
 - type: Tag
   id: VimPilot

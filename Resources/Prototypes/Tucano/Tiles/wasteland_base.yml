@@ -1,0 +1,13 @@
+- type: tile
+  id: FloorWasteland
+  name: wasteland
+  sprite: /Textures/Tucano/Tiles/wasteland.png
+  variants: 4
+  placementVariants: [0, 1, 2, 3]
+  baseTurf: space
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepAsteroid
+  friction: 0.30
+  thermalConductivity: 0.04
+  heatCapacity: 10000

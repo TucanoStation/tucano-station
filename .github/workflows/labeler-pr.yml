@@ -5,6 +5,8 @@ on:
 
 jobs:
   labeler:
+    permissions:
+      pull-requests: write
     if: github.actor != 'IanComradeBot'
     runs-on: ubuntu-latest
     steps:

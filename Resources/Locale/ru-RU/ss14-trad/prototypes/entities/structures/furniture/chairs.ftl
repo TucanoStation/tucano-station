@@ -1,6 +1,18 @@
 ent-SeatBase = chair
     .desc = You sit in this. Either by will or force.
 
+ent-UnanchoredChairBase = chair
+    .desc = { "" }
+
+ent-ChairBase = chair
+    .desc = { "" }
+
+ent-OfficeChairBase = chair
+    .desc = { "" }
+
+ent-StoolBase = stool
+    .desc = { "" }
+
 ent-Chair = chair
     .desc = { "" }
 
@@ -12,6 +24,9 @@ ent-Stool = stool
     .desc = Apply butt.
 
 ent-StoolBar = bar stool
+    .desc = { "" }
+
+ent-ChairBrass = brass chair
     .desc = { "" }
 
 ent-ChairOfficeLight = white office chair
@@ -50,3 +65,6 @@ ent-ChairFoldingSpawnFolded = { ent-ChairFolding }
 
 ent-SteelBench = steel bench
     .desc = A long chair made for a metro. Really standard design.
+
+ent-WoodenBench = wooden bench
+    .desc = Did you get a splinter? Well, at least it’s eco friendly.

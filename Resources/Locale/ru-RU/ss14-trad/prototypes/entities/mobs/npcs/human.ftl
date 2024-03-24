@@ -7,6 +7,12 @@ ent-MobSalvager = salvager
 ent-MobSpirate = spirate
     .desc = Yarr!
 
+ent-MobSyndicateFootsoldier = syndicate footsoldier
+    .desc = { "" }
+
+ent-MobSyndicateFootsoldierPilot = syndicate shuttle pilot
+    .desc = { "" }
+
 ent-SalvageHumanCorpse = unidentified corpse
     .desc = I think he's dead.
     .suffix = Dead

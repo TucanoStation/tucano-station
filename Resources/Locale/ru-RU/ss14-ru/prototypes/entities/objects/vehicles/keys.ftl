@@ -1,12 +1,15 @@
-ent-VehicleKeyJanicart = janicart keys
-    .desc = Interesting design.
-ent-VehicleKeySecway = secway keys
-    .desc = The keys to the future.
-ent-VehicleKeyATV = ATV keys
-    .desc = Think this looks like just one key? ATV keys means "actually two vehicle keys."
-ent-VehicleKeySkeleton = vehicle skeleton keys
-    .desc = Unlock any vehicle.
-ent-VehicleKeySyndicateSegway = syndicate segway keys
-    .desc = Patterned after the iconic EMAG design.
-ent-VehicleKeySkeletonMotorcycle = skeleton motorcycle keys
-    .desc = A beautiful set of keys adorned with a skull.
+ent-VehicleKeyJanicart = ключ от уборочной машины
+    .desc = Интересный дизайн.
+ent-VehicleKeySecway = ключ от секвея
+    .desc = Ключи к будущему.
+ent-VehicleKeyATV = ключ от квадроцикла
+    .desc = Какой формы ключ от квадроцикла? Конечно же квадратной!
+ent-VehicleKeySkeleton = мастер-ключ от транспорта
+    .desc = Открывает любое транспортное средство.
+# Corvax-HiddenDesc-Start
+ent-VehicleKeySyndicateSegway = ключ от алого сегвея
+    .suffix = сегвей синдиката
+    .desc = Сам ключ предвкушает отличную поездку с ветерком. Узор на бирке ключа выполнен стильно и минималистично.
+# Corvax-HiddenDesc-End
+ent-VehicleKeySkeletonMotorcycle = ключ от скелетонского мотоцикла
+    .desc = Красивая связка ключей, украшенная черепом.

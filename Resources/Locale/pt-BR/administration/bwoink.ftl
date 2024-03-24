@@ -8,3 +8,4 @@ bwoink-system-typing-indicator =
         [one] is
        *[other] are
     } typing...
+admin-bwoink-play-sound = Bwoink?

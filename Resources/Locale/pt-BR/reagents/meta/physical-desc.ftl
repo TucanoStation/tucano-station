@@ -95,4 +95,5 @@ reagent-physical-desc-funny = funny
 reagent-physical-desc-alkaline = alkaline
 reagent-physical-desc-reflective = reflective
 reagent-physical-desc-holy = holy
+reagent-physical-desc-neural = нейронное
 reagent-physical-desc-slimy = slimy

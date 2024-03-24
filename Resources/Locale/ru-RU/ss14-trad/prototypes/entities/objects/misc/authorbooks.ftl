@@ -87,3 +87,6 @@ ent-BookJourney = a journey of music, mountains, and self-discovery
 
 ent-BookInspiration = finding inspiration - a writer's journey through the woods
     .desc = The book is in a new condition with a cover depicting a serene forest scene with a waterfall and colorful wildflowers. The title of the book "Finding Inspiration - A Writer's Journey Through the Woods" and the author's name are prominently displayed at the bottom.
+
+ent-BookJanitorTale = the tales of a tired janitor
+    .desc = A clean looking book, smelling vaguely of soap and bleach.

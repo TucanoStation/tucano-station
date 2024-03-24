@@ -1,6 +1,12 @@
 ent-Grille = grille
     .desc = A flimsy framework of iron rods.
+ent-ClockworkGrille = заводная решётка
+    .desc = Хлипкий каркас из металлических прутьев, собранный в традиционном Ратварском стиле.
 ent-GrilleBroken = grille
     .desc = A flimsy framework of iron rods. It has seen better days.
+ent-ClockworkGrilleBroken = заводная решётка
+    .desc = Хлипкий каркас из металлических прутьев, собранный в традиционном Ратварском стиле. Он пережил лучшие времена.
 ent-GrilleDiagonal = diagonal grille
     .desc = { ent-Grille.desc }
+ent-ClockworkGrilleDiagonal = диагональная заводная решётка
+    .desc = { ent-ClockworkGrille.desc }

@@ -4,6 +4,7 @@ ent-ClothingHeadHelmetEVALarge = EVA helmet
     .desc = An old-but-gold helmet designed for extravehicular activites.
 ent-ClothingHeadHelmetSyndicate = syndicate EVA helmet
     .desc = A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
+    .suffix = Cиндикат
 ent-ClothingHeadHelmetCosmonaut = cosmonaut helmet
     .desc = Ancient design, but advanced manufacturing.
 ent-ClothingHeadHelmetVoidParamed = paramedic void helmet

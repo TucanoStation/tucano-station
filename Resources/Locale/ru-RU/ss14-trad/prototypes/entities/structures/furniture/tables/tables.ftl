@@ -22,6 +22,9 @@ ent-TableReinforcedGlass = reinforced glass table
 ent-TablePlasmaGlass = plasma glass table
     .desc = A square piece of plasma glass, standing on four metal legs. Pretty!
 
+ent-TableBrass = brass table
+    .desc = A shiny, corrosion resistant brass table. Steampunk!
+
 ent-TableWood = wood table
     .desc = Do not apply fire to this. Rumour says it burns easily.
 
@@ -33,6 +36,45 @@ ent-TableStone = stone table
 
 ent-TableWeb = web table
     .desc = Really smooth and surprisingly durable.
+
+ent-TableFancyBase = fancy table
+    .desc = Expensive and rich.
+
+ent-TableFancyBlue = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Blue
+
+ent-TableFancyCyan = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Cyan
+
+ent-TableFancyBlack = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Black
+
+ent-TableFancyRed = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Red
+
+ent-TableFancyPurple = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Purple
+
+ent-TableFancyPink = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Pink
+
+ent-TableFancyGreen = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Green
+
+ent-TableFancyOrange = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = Orange
+
+ent-TableFancyWhite = { ent-TableFancyBase }
+    .desc = { "" }
+    .suffix = White
 
 ent-TableDebug = table
     .desc = PUT ON THEM CODERSOCKS!!

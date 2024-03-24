@@ -4,3 +4,7 @@ ent-ClothingShoesAerostatic = aerostatic boots
     .desc = A crisp, clean set of boots for working long hours on the beat.
 ent-ClothingShoesCentcomBlack = special operations officer shoes
     .desc = Leather, black, high-quality shoes, you can hardly find similar ones on the black market...
+ent-ClothingShoesSchoolBlack = чёрные школьные туфли
+    .desc = Стильные и удобные школьные туфли тёмного оттенка с чулками.
+ent-ClothingShoesSchoolWhite = белые школьные туфли
+    .desc = Стильные и удобные школьные туфли светлого оттенка с чулками.

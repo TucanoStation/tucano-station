@@ -121,6 +121,9 @@ ent-FoodAloe = aloe
 ent-FoodPoppy = poppy
     .desc = A flower with extracts often used in the production of medicine
 
+ent-FoodLily = lily
+    .desc = A beautiful orange flower.
+
 ent-FoodLingzhi = lingzhi
     .desc = A potent medicinal mushroom. Don't go overboard.
 
@@ -144,6 +147,9 @@ ent-RiceBushel = rice bushel
 
 ent-FoodSoybeans = soybeans
     .desc = For those who can't stand seeing good old meat.
+
+ent-FoodSpacemansTrumpet = spaceman's trumpet
+    .desc = A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
 
 ent-FoodKoibean = koibean
     .desc = These beans seem a little bit fishy.

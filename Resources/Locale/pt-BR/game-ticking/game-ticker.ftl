@@ -36,3 +36,5 @@ latejoin-arrival-announcement = { $character } ({ $job }) has arrived at the sta
 latejoin-arrival-sender = Station
 latejoin-arrivals-direction = A shuttle transferring you to your station will arrive shortly.
 latejoin-arrivals-direction-time = A shuttle transferring you to your station will arrive in { $time }.
+preset-not-enough-ready-players = Не удалось запустить пресет { $presetName }. Требуется { $minimumPlayers } игроков, но готовы только { $readyPlayersCount }.
+preset-no-one-ready = Не удалось запустить режим { $presetName }. Нет готовых игроков.

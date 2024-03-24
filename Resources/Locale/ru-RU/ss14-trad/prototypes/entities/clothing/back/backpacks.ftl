@@ -70,6 +70,9 @@ ent-ClothingBackpackERTJanitor = ERT janitor backpack
 ent-ClothingBackpackERTClown = ERT clown backpack
     .desc = A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
 
+ent-ClothingBackpackSyndicate = syndicate backpack
+    .desc = { "" }
+
 ent-ClothingBackpackHolding = bag of holding
     .desc = A backpack that opens into a localized pocket of bluespace.
 

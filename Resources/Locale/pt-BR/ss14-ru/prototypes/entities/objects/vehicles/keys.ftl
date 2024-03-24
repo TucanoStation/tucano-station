@@ -8,5 +8,6 @@ ent-VehicleKeySkeleton = vehicle skeleton keys
     .desc = Unlock any vehicle.
 ent-VehicleKeySyndicateSegway = syndicate segway keys
     .desc = Patterned after the iconic EMAG design.
+    .suffix = сегвей синдиката
 ent-VehicleKeySkeletonMotorcycle = skeleton motorcycle keys
     .desc = A beautiful set of keys adorned with a skull.

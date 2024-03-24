@@ -89,6 +89,9 @@ ent-ClothingMaskBat = bat mask
 ent-ClothingMaskNeckGaiter = neck gaiter
     .desc = Stylish neck gaiter for your neck, can protect from the cosmic wind?...
 
+ent-ClothingMaskNeckGaiterRed = red neck gaiter
+    .desc = { "" }
+
 ent-ClothingMaskSexyClown = sexy clown mask
     .desc = Some naughty clowns think this is what the Honkmother looks like.
 

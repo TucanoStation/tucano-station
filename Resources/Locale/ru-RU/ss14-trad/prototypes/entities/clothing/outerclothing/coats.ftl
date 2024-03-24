@@ -78,3 +78,6 @@ ent-ClothingOuterCoatLabSeniorPhysician = senior physician lab coat
 
 ent-ClothingOuterCoatSpaceAsshole = the coat of space asshole
     .desc = And there he was...
+
+ent-ClothingOuterCoatExpensive = expensive coat
+    .desc = Very fluffy pink coat, made out of very expensive fur (clearly).

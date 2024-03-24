@@ -181,6 +181,9 @@ ent-PosterContrabandInterdyne = Interdyne Pharmaceutics: For the Health of Human
 ent-PosterContrabandWaffleCorp = Make Mine a Waffle Corp: Fine Rifles, Economic Prices
     .desc = An old advertisement for Waffle Corp rifles. 'Better weapons, lower prices!'
 
+ent-PosterContrabandMissingSpacepen = Missing Spacepen
+    .desc = This poster depicts something you will never find.
+
 ent-PosterLegitHereForYourSafety = Here For Your Safety
     .desc = A poster glorifying the station's security force.
 

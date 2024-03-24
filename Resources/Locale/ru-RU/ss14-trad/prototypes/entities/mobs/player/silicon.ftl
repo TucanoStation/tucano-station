@@ -1,9 +1,3 @@
-ent-Drone = drone
-    .desc = { "" }
-
-ent-Onestar = onestar mecha
-    .desc = { "" }
-
 ent-PlayerBorgGeneric = { ent-BorgChassisGeneric }
     .desc = { "" }
     .suffix = Battery, Tools

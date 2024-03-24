@@ -97,7 +97,7 @@ ent-ComputerIFFCircuitboard = IFF console board
 ent-ComputerIFFSyndicateCircuitboard = syndicate IFF console board
     .desc = Allows you to control the IFF and stealth characteristics of this vessel.
 
-ent-ComputerMassMediaCircuitboard = mass-media console board
+ent-ComputerMassMediaCircuitboard = news manager console board
     .desc = Write your message to the world!
 
 ent-SensorConsoleCircuitboard = sensor monitoring console board

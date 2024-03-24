@@ -1,12 +1,23 @@
-ent-EnergySword = energy sword
-    .desc = A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
-ent-EnergyDagger = pen
-    .desc = A dark ink pen.
-    .suffix = E-Dagger
-ent-EnergyDaggerBox = e-dagger box
-    .desc = A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
-    .suffix = E-Dagger
-ent-EnergyCutlass = energy cutlass
-    .desc = An exotic energy weapon.
-ent-EnergySwordDouble = double-bladed energy sword
-    .desc = Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+# Corvax-HiddenDesc-Start
+ent-EnergySword = игрушечный меч
+    .suffix = энергетический меч
+    .desc = Новый пластиковый меч от Sandy-Cat! Имеет реалистичный звук и насыщенный цвет! Почти как настоящий!
+
+# Corvax-HiddenDesc-End
+
+ent-EnergyDagger = ручка
+    .desc = Ручка с чёрными чернилами.
+    .suffix = Энергокинжал
+ent-EnergyDaggerBox = футляр энергокинжала
+    .desc = Небольшая коробочка, содержащая энергокинжал. После вскрытия упаковка дезинтегрируется, не оставив улик.
+    .suffix = Энергокинжал
+# Corvax-HiddenDesc-Start
+ent-EnergyCutlass = отломанная рукоять игрушечной абордажной сабли
+    .suffix = абордажная энергосабля
+    .desc = Тот кто сделал это, должно быть совсем не любит игрушки.
+ent-EnergySwordDouble = игрушечный двухклинковый меч
+    .suffix = двухклинковый энергетический меч
+    .desc = Новый двойной пластиковый меч от Sandy-Cat! В два раза больше эпика и громких звуков!
+
+# Corvax-HiddenDesc-End
+

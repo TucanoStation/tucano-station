@@ -13,6 +13,7 @@ comp-solution-transfer-is-full = { THE($target) } is full!
 
 comp-solution-transfer-verb-custom-amount = Custom
 comp-solution-transfer-verb-amount = { $amount }u
+comp-solution-transfer-verb-toggle = Переключить на { $amount } ед.
 
 ## Displayed after you successfully change a solution's amount using the BUI
 

@@ -130,7 +130,7 @@ ent-VendingMachineChang = Mr. Chang
     .desc = A self-serving Chinese food machine, for all your Chinese food needs.
 
 ent-VendingMachineSalvage = Salvage Vendor
-    .desc = A dwarves best friend!
+    .desc = A dwarf's best friend!
 
 ent-VendingMachineDonut = Monkin' Donuts
     .desc = A donut vendor provided by Robust Industries, LLC.

@@ -4,5 +4,6 @@ ent-GrenadeFlashBang = flashbang
     .desc = Eeeeeeeeeeeeeeeeeeeeee
 ent-SyndieMiniBomb = Syndicate minibomb
     .desc = A syndicate manufactured explosive used to sow destruction and chaos.
+    .suffix = Синдикат
 ent-NuclearGrenade = the nuclear option
     .desc = Please don't throw it, think of the children.

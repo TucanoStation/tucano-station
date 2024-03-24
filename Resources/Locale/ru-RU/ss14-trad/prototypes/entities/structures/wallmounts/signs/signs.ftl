@@ -28,6 +28,9 @@ ent-SignDirectionalEng = engineering sign
 ent-SignDirectionalEvac = evac sign
     .desc = A direction sign, pointing out which way evac is.
 
+ent-SignDirectionalExam = exam sign
+    .desc = A direction sign, pointing out which way the examination room(s) are.
+
 ent-SignDirectionalFood = food sign
     .desc = A direction sign, pointing out which way the kitchen is.
 
@@ -39,6 +42,9 @@ ent-SignDirectionalHop = hop sign
 
 ent-SignDirectionalHydro = hydro sign
     .desc = A direction sign, pointing out which way hydroponics is.
+
+ent-SignDirectionalIcu = icu sign
+    .desc = A direction sign, pointing out which way the ICU is.
 
 ent-SignDirectionalJanitor = janitor sign
     .desc = A direction sign, pointing out which way the janitor's closet is.
@@ -70,6 +76,9 @@ ent-SignDirectionalWash = washroom sign
 ent-SignAi = ai sign
     .desc = A sign, indicating an AI is present.
 
+ent-SignArcade = arcade sign
+    .desc = A sign indicating the arcade.
+
 ent-SignArmory = armory sign
     .desc = A sign indicating the armory.
 
@@ -90,6 +99,9 @@ ent-SignAtmosMinsky = atmospherics sign
 
 ent-SignBar = bar sign
     .desc = A sign indicating the bar.
+
+ent-SignBarbershop = barbershop sign
+    .desc = A sign indicating the barbershop.
 
 ent-SignBio = bio sign
     .desc = A sign indicating the biology lab.
@@ -181,6 +193,9 @@ ent-SignInterrogation = interrogation sign
 ent-SignJanitor = janitor sign
     .desc = A sign labelling an area where the janitor works.
 
+ent-SignLaundromat = laundromat sign
+    .desc = A sign indicating the laundromat.
+
 ent-SignLawyer = lawyer sign
     .desc = A sign labelling an area where the Lawyers work.
 
@@ -199,6 +214,9 @@ ent-SignMinerDock = miner dock sign
 ent-SignMorgue = morgue sign
     .desc = A sign indicating the morgue.
 
+ent-SignNews = news sign
+    .desc = A sign indicating where the Reporter works.
+
 ent-SignNosmoking = nosmoking sign
     .desc = A sign indicating that smoking is not allowed in the vicinity.
 
@@ -208,11 +226,17 @@ ent-SignPrison = prison sign
 ent-SignPsychology = psychology sign
     .desc = A sign labelling an area where the Psychologist works.
 
+ent-SignReception = reception sign
+    .desc = A sign indicating the reception.
+
 ent-SignRND = research and development sign
     .desc = A sign indicating the research and development lab.
 
 ent-SignRobo = robo sign
     .desc = A sign indicating the robotics lab.
+
+ent-SignSalvage = salvage sign
+    .desc = A sign indicating the salvage area.
 
 ent-SignScience = science sign
     .desc = A sign indicating the science area.

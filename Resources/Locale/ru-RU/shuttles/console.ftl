@@ -1,41 +1,44 @@
-shuttle-pilot-start = Piloting ship
-shuttle-pilot-end = Stopped piloting
+shuttle-pilot-start = Пилотирование начато
+shuttle-pilot-end = Пилотирование прекращено
+shuttle-console-in-ftl = Уже в БСС
+shuttle-console-mass = Слишком большой для БСС
+shuttle-console-prevent = Вы не можете пилотировать этот корабль
 
-shuttle-console-in-ftl = Can't FTL while in FTL!
-shuttle-console-proximity = Too close to nearby objects
-shuttle-console-prevent = You are unable to pilot this ship.
+# NAV
 
-# Display
-shuttle-console-display-label = Display
+shuttle-console-display-label = Дисплей
+shuttle-console-position = Местоположение:
+shuttle-console-orientation = Азимут:
+shuttle-console-linear-velocity = Линейная скорость:
+shuttle-console-angular-velocity = Угловая скорость:
+shuttle-console-unknown = Неизвестно
+shuttle-console-iff-label = { $name } ({ $distance } м)
+shuttle-console-exclusion = Зона отчуждения
+shuttle-console-nav-settings = Настройки
+shuttle-console-iff-toggle = Показ системы опознавания
+shuttle-console-dock-toggle = Показ стыковочных портов
 
-shuttle-console-ftl-state = FTL State
-shuttle-console-ftl-available = Available
-shuttle-console-ftl-starting = Starting
-shuttle-console-ftl-travelling = Travelling
-shuttle-console-ftl-arriving = Arriving
-shuttle-console-ftl-cooldown = Cooldown
+# MAP
 
-shuttle-console-ftl-timer = FTL Time
-
-shuttle-console-max-radar = Max radar range:
-shuttle-console-radar = Radar range:
-shuttle-console-position = Position:
-shuttle-console-orientation = Orientation:
-shuttle-console-linear-velocity = Linear velocity:
-shuttle-console-angular-velocity = Angular velocity:
-
-shuttle-console-dock-label = Docking ports
-shuttle-console-docked = {$index} (Docked)
-shuttle-console-dock-button = Dock {$suffix}
-
-shuttle-console-hyperspace-label = FTL destinations
-shuttle-console-hyperspace-none = No destinations found
-
-shuttle-console-unknown = Unknown
-shuttle-console-iff-label = {$name} ({$distance}m)
-
-# Buttons
-shuttle-console-strafing = Strafing mode
-shuttle-console-iff-toggle = Show IFF
-shuttle-console-dock-toggle = Show docks
-shuttle-console-undock = Undock
+shuttle-console-ftl-label = Статус БСС
+shuttle-console-ftl-state-Available = Доступно
+shuttle-console-ftl-state-Starting = Запуск
+shuttle-console-ftl-state-Travelling = В пути
+shuttle-console-ftl-state-Arriving = Прибытие
+shuttle-console-ftl-state-Cooldown = Перезарядка
+shuttle-console-map-settings = Настройки
+shuttle-console-ftl-button = БСС
+shuttle-console-map-rebuild =
+    Сканировать на
+    наличие объектов
+shuttle-console-map-beacons = Показ маяков
+shuttle-console-no-signal = Нет сигнала
+shuttle-console-map-objects = Объекты в секторе
+# DOCK
+shuttle-console-docked = Пристыкованные объекты
+shuttle-console-view = Выбрать
+shuttle-console-undock = Отстыковать
+shuttle-console-dock = Пристыковать
+shuttle-console-docks-label = Стыковочные порты
+shuttle-console-undock-fail = Не удалось отстыковаться
+shuttle-console-dock-fail = Не удалось пристыковаться

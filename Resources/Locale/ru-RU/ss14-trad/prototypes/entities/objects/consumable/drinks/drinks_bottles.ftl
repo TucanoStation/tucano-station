@@ -91,11 +91,11 @@ ent-DrinkJuiceOrangeCartonXL = orange juice XL
 ent-DrinkCreamCartonXL = Milk Cream XL
     .desc = It's cream. Made from milk. What else did you think you'd find in there?
 
-ent-DrinkSugarJug = sugar
+ent-DrinkSugarJug = sugar jug
     .desc = some people put this in their coffee...
     .suffix = for drinks
 
-ent-DrinkLemonLimeJug = lemon lime
+ent-DrinkLemonLimeJug = lemon lime jug
     .desc = a dual citrus sensation.
 
 ent-DrinkMeadJug = mead jug

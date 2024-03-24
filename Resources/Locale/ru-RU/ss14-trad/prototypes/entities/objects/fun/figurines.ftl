@@ -46,8 +46,8 @@ ent-ToyFigurineLawyer = lawyer figure
 ent-ToyFigurineCargoTech = cargo technican figure
     .desc = A figurine depicting a reptillian Cargo Technican.
 
-ent-ToyFigurineSalvage = salvage technican figure
-    .desc = A figurine depicting a Salvage Technician holding a survival knife.
+ent-ToyFigurineSalvage = salvage specialist figure
+    .desc = A figurine depicting a Salvage Specialist holding a survival knife.
 
 ent-ToyFigurineQuartermaster = quartermaster figure
     .desc = A figurine depicting the glorious head of the Cargo department.

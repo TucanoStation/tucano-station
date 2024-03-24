@@ -120,28 +120,28 @@ ent-ClearPDA = clear PDA
 ent-SyndiPDA = syndicate PDA
     .desc = Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
 
-ent-ERTLeaderPDA = ERT PDA
+ent-ERTLeaderPDA = ERT Leader PDA
     .desc = Red for firepower.
     .suffix = Leader
 
-ent-ERTChaplainPDA = ERT PDA
-    .desc = { "" }
+ent-ERTChaplainPDA = ERT Chaplain PDA
+    .desc = Red for firepower, it's blessed.
     .suffix = Chaplain
 
-ent-ERTEngineerPDA = { ent-ERTLeaderPDA }
-    .desc = { "" }
+ent-ERTEngineerPDA = ERT Engineer PDA
+    .desc = Red for firepower, it's well-worn.
     .suffix = Engineer
 
-ent-ERTJanitorPDA = { ent-ERTLeaderPDA }
-    .desc = { "" }
+ent-ERTJanitorPDA = ERT Janitor PDA
+    .desc = Red for firepower, it's squeaky clean.
     .suffix = Janitor
 
-ent-ERTMedicPDA = { ent-ERTLeaderPDA }
-    .desc = { "" }
+ent-ERTMedicPDA = ERT Medic PDA
+    .desc = Red for firepower, it's shiny and sterile. Has a built-in rapid health analyzer.
     .suffix = Medic
 
-ent-ERTSecurityPDA = { ent-ERTLeaderPDA }
-    .desc = { "" }
+ent-ERTSecurityPDA = ERT Security PDA
+    .desc = Red for firepower, it has tally marks etched on the side.
     .suffix = Security
 
 ent-CBURNPDA = CBURN PDA

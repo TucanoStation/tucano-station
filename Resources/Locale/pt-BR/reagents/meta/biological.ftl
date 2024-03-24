@@ -16,3 +16,5 @@ reagent-name-fat = fat
 reagent-desc-fat = No matter how it was obtained, its application is important.
 reagent-name-vomit = vomit
 reagent-desc-vomit = You can see a few chunks of someone's last meal in it.
+reagent-name-grey-matter = серое вещество
+reagent-desc-grey-matter = Сок мыслей, вытекающий из ушей.

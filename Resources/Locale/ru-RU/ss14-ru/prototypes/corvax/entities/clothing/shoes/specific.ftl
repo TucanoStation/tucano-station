@@ -1,6 +1,10 @@
-ent-ClothingShoesGreenLizardskin = green lizardskin shoes
-    .desc = They may have lost some of their lustre over the years, but these green lizardskin shoes fit you perfectly.
-ent-ClothingShoesAerostatic = aerostatic boots
-    .desc = A crisp, clean set of boots for working long hours on the beat.
-ent-ClothingShoesCentcomBlack = special operations officer shoes
-    .desc = Leather, black, high-quality shoes, you can hardly find similar ones on the black market...
+ent-ClothingShoesGreenLizardskin = зеленые туфли из кожи ящерицы
+    .desc = Возможно, с годами они немного утратили свой блеск, но эти зеленые туфли из кожи ящерицы идеально вам подходят.
+ent-ClothingShoesAerostatic = аэростатические ботинки
+    .desc = Удобные, чистые ботинки для длительной работы в напряженном ритме.
+ent-ClothingShoesCentcomBlack = обувь офицера специальных операций
+    .desc = Кожаная, чёрная, высококачественная обувь, вряд-ли найти подобные на чёрном рынке...
+ent-ClothingShoesSchoolBlack = чёрные школьные туфли
+    .desc = Стильные и удобные школьные туфли тёмного оттенка с чулками.
+ent-ClothingShoesSchoolWhite = белые школьные туфли
+    .desc = Стильные и удобные школьные туфли светлого оттенка с чулками.

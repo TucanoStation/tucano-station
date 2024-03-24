@@ -68,76 +68,76 @@ ent-HealingToolbox = healing toolbox
     .desc = A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
     .suffix = DO NOT MAP
 
-ent-PillDexalin = dexalin pill (10u)
+ent-PillDexalin = pill (dexalin 10u)
     .desc = { "" }
 
-ent-PillCanisterDexalin = { ent-PillCanister }
+ent-PillCanisterDexalin = pill canister (dexalin 10u)
     .desc = { "" }
     .suffix = Dexalin, 7
 
-ent-PillDylovene = dylovene pill (10u)
+ent-PillDylovene = pill (dylovene 10u)
     .desc = { "" }
 
-ent-PillCanisterDylovene = { ent-PillCanister }
+ent-PillCanisterDylovene = pill canister (dylovene 10u)
     .desc = { "" }
     .suffix = Dylovene, 5
 
-ent-PillHyronalin = hyronalin pill (10u)
+ent-PillHyronalin = pill (hyronalin 10u)
     .desc = { "" }
 
-ent-PillCanisterHyronalin = { ent-PillCanister }
+ent-PillCanisterHyronalin = pill canister (hyronalin 10u)
     .desc = { "" }
     .suffix = Hyronalin, 5
 
-ent-PillIron = iron pill (10u)
+ent-PillIron = pill (iron 10u)
     .desc = { "" }
 
-ent-PillCopper = copper pill (10u)
+ent-PillCopper = pill (copper 10u)
     .desc = { "" }
 
-ent-PillCanisterIron = { ent-PillCanister }
+ent-PillCanisterIron = pill canister (iron 10u)
     .desc = { "" }
     .suffix = Iron, 5
 
-ent-PillCanisterCopper = { ent-PillCanister }
+ent-PillCanisterCopper = pill canister (copper 10u)
     .desc = { "" }
     .suffix = Copper, 5
 
-ent-PillKelotane = kelotane pill (10u)
+ent-PillKelotane = pill (kelotane 10u)
     .desc = { "" }
 
-ent-PillCanisterKelotane = { ent-PillCanister }
+ent-PillCanisterKelotane = pill canister (kelotane 10u)
     .desc = { "" }
     .suffix = Kelotane, 5
 
-ent-PillDermaline = dermaline pill (10u)
+ent-PillDermaline = pill (dermaline 10u)
     .desc = { "" }
 
-ent-PillCanisterDermaline = { ent-PillCanister }
+ent-PillCanisterDermaline = pill canister (dermaline 10u)
     .desc = { "" }
     .suffix = Dermaline, 5
 
 ent-PillSpaceDrugs = space drugs
     .desc = { "" }
 
-ent-PillTricordrazine = tricordrazine pill (10u)
+ent-PillTricordrazine = pill (tricordrazine 10u)
     .desc = { "" }
 
-ent-PillCanisterTricordrazine = { ent-PillCanister }
+ent-PillCanisterTricordrazine = pill canister (tricordrazine 10u)
     .desc = { "" }
     .suffix = Tricordrazine, 5
 
-ent-PillBicaridine = bicaridine pill (10u)
+ent-PillBicaridine = pill (bicaridine 10u)
     .desc = { "" }
 
-ent-PillCanisterBicaridine = { ent-PillCanister }
+ent-PillCanisterBicaridine = pill canister (bicaridine 10u)
     .desc = { "" }
     .suffix = Bicaridine, 5
 
-ent-PillCharcoal = charcoal pill (10u)
+ent-PillCharcoal = pill (charcoal 10u)
     .desc = { "" }
 
-ent-PillCanisterCharcoal = { ent-PillCanister }
+ent-PillCanisterCharcoal = pill canister (charcoal 10u)
     .desc = { "" }
     .suffix = Charcoal, 3
 
@@ -149,6 +149,10 @@ ent-PillAmbuzol = ambuzol pill
 
 ent-PillAmbuzolPlus = ambuzol plus pill
     .desc = { "" }
+
+ent-PillCanisterRandom = { ent-PillCanister }
+    .desc = { "" }
+    .suffix = Random
 
 ent-SyringeEphedrine = ephedrine syringe
     .desc = { "" }

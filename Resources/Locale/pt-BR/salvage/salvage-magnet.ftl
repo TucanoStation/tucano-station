@@ -59,6 +59,7 @@ salvage-map-proto-MediumShuttleWreck = Ruined Emergency Shuttle
 salvage-map-proto-MediumPetHospital = Pet and Bear Hospital
 salvage-map-proto-MediumCrashedShuttle = Crashed Shuttle
 salvage-map-proto-Meatball = Meatball
+salvage-map-proto-VeganMeatball = Веганская фрикаделька
 salvage-map-proto-StationStation = Station station
 salvage-map-proto-AsteroidBase = Asteroid Base
 salvage-map-proto-RuinCargoBase = Ruined Cargo Storage

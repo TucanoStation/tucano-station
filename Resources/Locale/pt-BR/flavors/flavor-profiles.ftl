@@ -49,6 +49,7 @@ flavor-base-holy = holy
 flavor-base-horrible = horrible
 # lmao
 flavor-base-terrible = terrible
+flavor-base-mindful = разумно
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -171,6 +172,7 @@ flavor-complex-lost-friendship = like lost friendship
 flavor-complex-light = like a light gone out
 flavor-complex-profits = like profits
 flavor-complex-fishops = like the dreaded fishops
+flavor-complex-violets = как фиалки
 
 # Drink-specific flavors.
 
@@ -259,5 +261,6 @@ flavor-complex-medicine = like medicine
 flavor-complex-carpet = like a handful of fur
 flavor-complex-bee = unbeelievable
 flavor-complex-sax = like jazz
+flavor-weh = как вех
 flavor-complex-bottledlightning = like lightning in a bottle
 flavor-complex-punishment = like punishment

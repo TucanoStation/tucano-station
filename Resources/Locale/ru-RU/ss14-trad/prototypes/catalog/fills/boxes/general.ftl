@@ -28,8 +28,9 @@ ent-BoxMesonScanners = meson box
 ent-BoxMRE = M.R.E.
     .desc = A box of decades old military surplus rations. It is surprisingly not rotten.
 
-ent-BoxHugHealing = box of hugs
-    .desc = A special box for sensitive people.
+ent-BoxHugHealing = { ent-BoxHug }
+    .desc = { "" }
+    .suffix = Medical
 
 ent-BoxInflatable = inflatable wall box
     .desc = Inflatable walls are not to be used as floatation devices.

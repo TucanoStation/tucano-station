@@ -23,6 +23,7 @@ materials-meat = meat
 materials-web = silk
 materials-bones = bone
 materials-coal = coal
+materials-gunpowder = чёрный порох
 # Ores
 materials-raw-iron = raw iron
 materials-raw-quartz = raw quartz
@@ -31,3 +32,4 @@ materials-raw-silver = raw silver
 materials-raw-plasma = raw plasma
 materials-raw-uranium = raw uranium
 materials-raw-bananium = raw bananium
+materials-raw-salt = каменная соль

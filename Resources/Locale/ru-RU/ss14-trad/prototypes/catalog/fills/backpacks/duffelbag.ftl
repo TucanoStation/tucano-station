@@ -56,6 +56,12 @@ ent-ClothingBackpackDuffelSyndicateEVABundle = syndicate EVA bundle
 ent-ClothingBackpackDuffelSyndicateHardsuitBundle = syndicate hardsuit bundle
     .desc = Contains the Syndicate's signature blood red hardsuit.
 
+ent-ClothingBackpackDuffelSyndicateEliteHardsuitBundle = syndicate elite hardsuit bundle
+    .desc = Contains the Syndicate's elite hardsuit, which comes with some more stuff in it.
+
+ent-ClothingBackpackDuffelSyndicateHardsuitExtrasBundle = syndicate hardsuit extras bundle
+    .desc = Contains stuff that you will absolutely want to have when purchasing a hardsuit.
+
 ent-ClothingBackpackDuffelZombieBundle = syndicate zombie bundle
     .desc = An all-in-one kit for unleashing the undead upon a station.
 
@@ -67,3 +73,6 @@ ent-ClothingBackpackDuffelSyndicateOperativeMedic = operative medic duffelbag
 
 ent-ClothingBackpackDuffelSyndicateMedicalBundleFilled = medical bundle
     .desc = All you need to get your comrades back in the fight.
+
+ent-ClothingBackpackDuffelSyndicateDecoyKitFilled = decoy bundle
+    .desc = Contains distractions, both auditory and visual. Smell coming soon.

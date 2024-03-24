@@ -62,3 +62,7 @@ station-goal-containment =
     - Consequências e reação do espécime
     Em caso de morte irreversível do espécime, capture um novo e continue os experimentos.
     O documento deve ser autenticado com o selo do diretor de pesquisa.
+station-goal-tesla =
+    Цель вашей смены построить генератор основанный на высоковольтной Тесле.
+    Чтобы её выполнить инженерному отделу понадобится построить сдерживающую клетку, отделу снабжения потребуется заказать все необходимые материалы.
+    Сдерживающая клетка должна быть способна сдерживать теслу без риска разрушения эмиттеров.

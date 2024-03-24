@@ -57,3 +57,5 @@ ent-FloraTreeStumpConifer = tree stump
     .desc = { "" }
 ent-ShadowTree01 = dark wood
     .desc = The leaves are whispering about you.
+ent-LightTree01 = glowing tree
+    .desc = a marvelous tree filled with strange energy.

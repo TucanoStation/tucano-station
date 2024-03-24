@@ -1,5 +1,7 @@
 ent-NotekeeperCartridge = notekeeper cartridge
     .desc = A program for keeping notes
+ent-NewsReaderCartridge = news cartridge
+    .desc = A program for reading news
 ent-NewsReadCartridge = news cartridge
     .desc = A program for reading news
 ent-CrewManifestCartridge = crew manifest cartridge

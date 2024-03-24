@@ -22,6 +22,7 @@ ent-UnstableMutagenChemistryBottle = unstable mutagen bottle
     .desc = This will cause rapid mutations in your plants.
 ent-NocturineChemistryBottle = nocturine bottle
     .desc = This will make someone fall down almost immediately. Hard to overdose on.
+    .suffix = бутылочка ноктюрина, Синдикат
 ent-EphedrineChemistryBottle = ephedrine bottle
     .desc = { ent-BaseChemistryBottleFilled.desc }
 ent-OmnizineChemistryBottle = omnizine bottle

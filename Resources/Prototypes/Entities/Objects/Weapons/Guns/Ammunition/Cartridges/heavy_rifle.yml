@@ -13,10 +13,11 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
-    - state: base
+    - state: 7.62
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
+    state: "7.62"
   - type: StaticPrice
     price: 10
 
@@ -25,6 +26,13 @@
   name: cartridge (.10 rifle)
   parent: BaseCartridgeHeavyRifle
   components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: 7.62x39mm
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: SpentAmmoVisuals
+    state: "7.62x39mm"
   - type: CartridgeAmmo
     proto: BulletMinigun
     deleteOnSpawn: true

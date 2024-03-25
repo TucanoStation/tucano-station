@@ -5,16 +5,58 @@
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/0b3ab17dbad632ddf738b63900ef8df1926bba47/icons/obj/ammo.dmi, modified by Topy",
+    "copyright": "By VictorJob",
     "states": [
         {
-            "name": "base"
+            "name": "9mm"
         },
         {
-            "name": "tip"
+            "name": "9mm-spent"
         },
         {
-            "name": "base-spent"
+            "name": "9mmtip"
+        },
+        {
+            "name": "5.56"
+        },
+        {
+            "name": "5.56-spent"
+        },
+        {
+            "name": "5.56tip"
+        },
+        {
+            "name": "7.62"
+        },
+        {
+            "name": "7.62-spent"
+        },
+        {
+            "name": "7.62tip"
+        },
+        {
+            "name": "7.62x39mm"
+        },
+        {
+            "name": "7.62x39mm-spent"
+        },
+        {
+            "name": "7.62x39mmtip"
+        },
+        {
+            "name": ".45"
+        },
+        {
+            "name": ".45-spent"
+        },
+        {
+            "name": ".45tip"
+        },
+        {
+            "name": "caseless"
+        },
+        {
+            "name": "caselesstip"
         }
     ]
 }

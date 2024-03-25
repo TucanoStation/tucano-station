@@ -14,7 +14,7 @@
     noRot: false
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
-    - state: base
+    - state: caseless
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
@@ -38,9 +38,9 @@
     proto: BulletCaselessRiflePractice
   - type: Sprite
     layers:
-      - state: base
+      - state: caseless
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: caselesstip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#dbdbdb"
 
@@ -53,8 +53,8 @@
     proto: BulletCaselessRifleRubber
   - type: Sprite
     layers:
-      - state: base
+      - state: caseless
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: caselesstip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"

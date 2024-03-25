@@ -13,10 +13,11 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
-    - state: base
+    - state: .45
       map: ["enum.AmmoVisualLayers.Base"]
   - type: Appearance
   - type: SpentAmmoVisuals
+    state: ".45"
 
 - type: entity
   id: CartridgeMagnum
@@ -35,9 +36,9 @@
     proto: BulletMagnumPractice
   - type: Sprite
     layers:
-      - state: base
+      - state: .45
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: .45tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#dbdbdb"
 
@@ -50,9 +51,9 @@
     proto: BulletMagnumRubber
   - type: Sprite
     layers:
-      - state: base
+      - state: .45
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: .45tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"
 
@@ -65,9 +66,9 @@
     proto: BulletMagnumIncendiary
   - type: Sprite
     layers:
-      - state: base
+      - state: .45
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: .45tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#ff6e52"
 
@@ -80,9 +81,9 @@
     proto: BulletMagnumAP
   - type: Sprite
     layers:
-      - state: base
+      - state: .45
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: .45tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#0a0a0a"
 
@@ -95,9 +96,9 @@
     proto: BulletMagnumUranium
   - type: Sprite
     layers:
-      - state: base
+      - state: .45
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: .45tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
 

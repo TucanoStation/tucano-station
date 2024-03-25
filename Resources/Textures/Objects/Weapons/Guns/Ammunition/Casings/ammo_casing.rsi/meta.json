@@ -14,7 +14,7 @@
             "name": "9mm-spent"
         },
         {
-            "name": "tip"
+            "name": "9mmtip"
         },
         {
             "name": "5.56"
@@ -23,10 +23,16 @@
             "name": "5.56-spent"
         },
         {
+            "name": "5.56tip"
+        },
+        {
             "name": "7.62"
         },
         {
             "name": "7.62-spent"
+        },
+        {
+            "name": "7.62tip"
         },
         {
             "name": "7.62x39mm"
@@ -35,10 +41,22 @@
             "name": "7.62x39mm-spent"
         },
         {
+            "name": "7.62x39mmtip"
+        },
+        {
             "name": ".45"
         },
         {
             "name": ".45-spent"
+        },
+        {
+            "name": ".45tip"
+        },
+        {
+            "name": "caseless"
+        },
+        {
+            "name": "caselesstip"
         }
     ]
 }

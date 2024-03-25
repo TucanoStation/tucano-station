@@ -36,9 +36,9 @@
     proto: BulletLightRiflePractice
   - type: Sprite
     layers:
-      - state: base
+      - state: 7.62
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 7.62tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#dbdbdb"
 
@@ -51,9 +51,9 @@
     proto: BulletLightRifleRubber
   - type: Sprite
     layers:
-      - state: base
+      - state: 7.62
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 7.62tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"
 
@@ -66,9 +66,9 @@
     proto: BulletLightRifleIncendiary
   - type: Sprite
     layers:
-      - state: base
+      - state: 7.62
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 7.62tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#ff6e52"
 
@@ -81,8 +81,8 @@
     proto: BulletLightRifleUranium
   - type: Sprite
     layers:
-      - state: base
+      - state: 7.62
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 7.62tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"

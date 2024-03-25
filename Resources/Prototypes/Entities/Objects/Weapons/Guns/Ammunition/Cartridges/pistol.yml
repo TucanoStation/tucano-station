@@ -36,9 +36,9 @@
     proto: BulletPistolPractice
   -  type: Sprite
      layers:
-       - state: base
+       - state: 9mm
          map: [ "enum.AmmoVisualLayers.Base" ]
-       - state: tip
+       - state: 9mmtip
          map: [ "enum.AmmoVisualLayers.Tip" ]
          color: "#dbdbdb"
 
@@ -51,9 +51,9 @@
     proto: BulletPistolRubber
   - type: Sprite
     layers:
-      - state: base
+      - state: 9mm
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 9mmtip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#43c4f7"
 
@@ -66,9 +66,9 @@
     proto: BulletPistolIncendiary
   - type: Sprite
     layers:
-      - state: base
+      - state: 9mm
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 9mmtip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#ff6e52"
 
@@ -81,8 +81,8 @@
     proto: BulletPistolUranium
   - type: Sprite
     layers:
-      - state: base
+      - state: 9mm
         map: [ "enum.AmmoVisualLayers.Base" ]
-      - state: tip
+      - state: 9mmtip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"

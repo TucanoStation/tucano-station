@@ -7,6 +7,9 @@
     - PetsNT
     - Zombie
     - Revolutionary
+    - TerrorSpider
+    - Faithless
+    
 
 - type: npcFaction
   id: NanoTrasen
@@ -16,6 +19,8 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: Mouse
@@ -32,6 +37,8 @@
   - SimpleHostile
   - Zombie
   - Xeno
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: SimpleHostile
@@ -42,6 +49,8 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: SimpleNeutral
@@ -54,6 +63,8 @@
   - Xeno
   - PetsNT
   - Zombie
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: Xeno
@@ -64,6 +75,8 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: Zombie
@@ -75,6 +88,8 @@
   - Passive
   - PetsNT
   - Revolutionary
+  - TerrorSpider
+  - Faithless
 
 - type: npcFaction
   id: Revolutionary
@@ -83,3 +98,5 @@
   - Zombie
   - SimpleHostile
   - Dragon
+  - TerrorSpider
+  - Faithless

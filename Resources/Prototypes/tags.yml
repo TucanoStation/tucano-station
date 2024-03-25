@@ -1099,9 +1099,6 @@
   id: ShellShotgun
 
 - type: Tag
-  id: ShellShotgunHotshot
-
-- type: Tag
   id: Shiv
 
 - type: Tag

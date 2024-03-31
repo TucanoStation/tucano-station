@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWoodlands
   name: PFD-SIJ Jumpsuit
-  description: A retro-looking jumpsuit, used by the Planetary Forces Division.
+  description: A retro-looking military green jumpsuit.
   components:
     - type: Sprite
       sprite: Tucano/Clothing/Uniforms/Jumpsuit/woodland_jumpsuit.rsi
@@ -16,7 +16,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWoodlandsCamo
   name: PFD-SIJ Camo Jumpsuit
-  description: A retro-looking camo jumpsuit, used by the Planetary Forces Division.
+  description: A retro-looking camo jumpsuit.
   components:
     - type: Sprite
       sprite: Tucano/Clothing/Uniforms/Jumpsuit/woodland_camo_jumpsuit.rsi

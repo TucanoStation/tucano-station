@@ -89,9 +89,6 @@
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
     capacity: 99
-  - type: Tag
-    tags:
-      - MagazineCaselessRifle10x24
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/10x24.rsi
 
